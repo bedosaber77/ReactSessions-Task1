@@ -9,7 +9,8 @@ body {
   background-color: darkgrey;
   padding: 20px;
 
-  display: block; /* TODO : change to flex and make it wrap  */
+  display: flex; /* TODO : change to flex and make it wrap  */
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
